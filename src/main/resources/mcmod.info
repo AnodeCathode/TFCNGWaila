@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "tfcngwaila",
+    "name": "TFCNG Waila",
+    "description": "Adds Waila information for TFC NG",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "/assets/tfc/textures/gui/logo.png",
+    "url": "https://github.com/AnodeCathode/TFCNGWaila",
+    "authorList": [
+      "AnodeCathode"
+	  
+    ],
+    "credits": "The TFC dev team for their extraordinary mod."
+  }
+]
