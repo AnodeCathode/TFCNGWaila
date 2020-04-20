@@ -43,8 +43,8 @@ public final class WailaPlugin implements IWailaDataProvider
     {
         WailaPlugin dataProvider = new WailaPlugin();
         registrar.registerBodyProvider(dataProvider, BlockOreTFC.class);
-        registrar.registerBodyProvider(new WailaPlugin(), BlockPitKiln.class);
-        registrar.registerBodyProvider(new WailaPlugin(), TEPitKiln.class);
+        registrar.registerBodyProvider(dataProvider, BlockPitKiln.class);
+        registrar.registerBodyProvider(dataProvider, TEPitKiln.class);
 
 
 
