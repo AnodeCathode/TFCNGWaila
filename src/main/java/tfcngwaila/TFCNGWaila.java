@@ -38,8 +38,7 @@ public class TFCNGWaila
     public void init(FMLInitializationEvent event)
     {
         //Waila/initialization
-        FMLInterModComms.sendMessage("waila", "register", "tfcngwaila.compat.waila.WailaBlockOreTFC.callbackRegister");
-        FMLInterModComms.sendMessage("waila", "register", "tfcngwaila.compat.waila.WailaBlockPitKiln.callbackRegister");
+        FMLInterModComms.sendMessage("waila", "register", "tfcngwaila.compat.waila.WailaBlocksTFC.callbackRegister");
 
     }
 

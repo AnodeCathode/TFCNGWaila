@@ -1,2 +1,7 @@
 # Waila/Hwyla/TOP
-tfcngwaila.hoursRemaining="Hours Remaining: "
+remaining=Minutes Remaining
+unlit=Unlit
+straw=Straw
+logs=Logs
+percent=Percent
+mature=Mature
