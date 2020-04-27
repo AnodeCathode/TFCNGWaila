@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
 @SuppressWarnings("WeakerAccess")
-@Mod(modid = TFCNGWaila.MODID, name = TFCNGWaila.NAME, version = TFCNGWaila.VERSION)
+@Mod(modid = TFCNGWaila.MODID, name = TFCNGWaila.NAME, version = TFCNGWaila.VERSION, dependencies = "required:tfc@[1.0.6.133,]")
 public class TFCNGWaila
 {
     public static final String MODID = "tfcngwaila";
