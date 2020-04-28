@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
 @SuppressWarnings("WeakerAccess")
-@Mod(modid = TFCNGWaila.MODID, name = TFCNGWaila.NAME, version = TFCNGWaila.VERSION, dependencies = "required:tfc@[1.0.6.133,]")
+@Mod(modid = TFCNGWaila.MODID, name = TFCNGWaila.NAME, version = TFCNGWaila.VERSION, dependencies = "required:tfc@[1.0.7.134,]")
 public class TFCNGWaila
 {
     public static final String MODID = "tfcngwaila";
@@ -39,6 +39,7 @@ public class TFCNGWaila
     {
         //Waila/initialization
         FMLInterModComms.sendMessage("waila", "register", "tfcngwaila.compat.waila.WailaBlocksTFC.callbackRegister");
+        FMLInterModComms.sendMessage("waila", "register", "tfcngwaila.compat.waila.WailaEntitiesTFC.callbackRegister");
 
     }
 

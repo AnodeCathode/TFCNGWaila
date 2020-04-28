@@ -292,11 +292,12 @@ public final class WailaBlocksTFC implements IWailaDataProvider
             BarrelRecipe recipe = te.getRecipe();
             if (recipe != null)
             {
+
                 result = new TextComponentTranslation("brewing").getFormattedText() + " " + recipe.getResultName();
                 currenttip.add(result);
             }
         }
-        result = new TextComponentTranslation("contains").getFormattedText() + " " + amount + " of " + fullfluid;
+        result = new TextComponentTranslation("contains").getFormattedText() + " " + amount + " units of " + fullfluid;
         currenttip.add(result);
         return currenttip;
     }
